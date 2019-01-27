@@ -13,6 +13,7 @@ This program will exist of 3 parts for the frontend:
 
 <h2>Back-end</h2>
   <ul>
+  <li>Web-server</li>
   <li>Database</li>
   <li>Mail-server</li>
   </ul>
