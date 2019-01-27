@@ -10,6 +10,12 @@ This program will exist of 3 parts for the frontend:
   <li>iOS app</li>
   <li>Website</li>
   </ul>
+
+<h2>Back-end</h2>
+  <ul>
+  <li>Database</li>
+  <li>Mail-server</li>
+  </ul>
   
   
 <h2>Smart home compatibility</h2>
