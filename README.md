@@ -1,4 +1,4 @@
-# oss-docs
+# scolix-docs
 Here: general idea's will be discussed and made. Also any kind of documents will be made here.
 <h2>General idea</h2>
 We will be building an open-source, free-to-use School Management System under the name <b>Open School System (OSS)</b>. The name might be changed in the future though.
