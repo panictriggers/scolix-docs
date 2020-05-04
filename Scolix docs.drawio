@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-04T12:23:36.146Z" agent="5.0 (Windows)" etag="iZWI4bIqi1ZyaQ48X51t" version="13.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-04T12:36:38.537Z" agent="5.0 (Windows)" etag="CMWVI_tRkfs-CNRa3EFj" version="13.0.6" type="github" pages="2">
   <diagram id="xxIS8hDRbP5vDM_v2ATv" name="Page-1">
     <mxGraphModel dx="1402" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,19 +32,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8pLzvIoQmMCd6t_XpcBv-46" value="HTTP API webserver&#xa;(Python, Django)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-1">
-          <mxGeometry x="360" y="90" width="320" height="280" as="geometry" />
+          <mxGeometry x="360" y="90" width="320" height="420" as="geometry" />
         </mxCell>
         <mxCell id="8pLzvIoQmMCd6t_XpcBv-53" value="TCPClient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-46">
-          <mxGeometry y="41" width="320" height="239" as="geometry" />
+          <mxGeometry y="41" width="320" height="379" as="geometry" />
         </mxCell>
-        <mxCell id="8pLzvIoQmMCd6t_XpcBv-54" value="+ s: socket.socket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-53">
-          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        <mxCell id="8pLzvIoQmMCd6t_XpcBv-54" value="+ s: socket.socket&#xa;+ receiveData: bool&#xa;+ ip: str&#xa;+ port: int&#xa;+ handlers: TCPMessageHandler[]&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-53">
+          <mxGeometry y="26" width="320" height="84" as="geometry" />
         </mxCell>
         <mxCell id="8pLzvIoQmMCd6t_XpcBv-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-53">
-          <mxGeometry y="52" width="320" height="8" as="geometry" />
+          <mxGeometry y="110" width="320" height="8" as="geometry" />
         </mxCell>
         <mxCell id="8pLzvIoQmMCd6t_XpcBv-56" value="+ send: None&#xa;+ addHandler: None&#xa;+ run: None&#xa;+ getIP: str&#xa;+ getPort: int&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8pLzvIoQmMCd6t_XpcBv-53">
-          <mxGeometry y="60" width="320" height="100" as="geometry" />
+          <mxGeometry y="118" width="320" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
